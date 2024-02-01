@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./componentes/Banner/Banner";
+import Banner from "./componentes/Banner/banner";
 import Footer from "./componentes/Footer/Footer";
 
 function App() {
