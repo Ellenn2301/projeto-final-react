@@ -1,10 +1,14 @@
 import React from 'react';
 import './Banner.css';
+import Menu from './Menu/menu';
 
 const Banner = () => {
 
     return(
         <div>
+
+            <Menu />
+
             <header className='containerBanner'>
                 <h2 className='tituloBanner'>Projeto Final - Módulo React <i class="fa-brands fa-react"></i></h2> 
                 <img className='meuBanner' src='/imagens/banner.svg' alt='Imagem centralizada em uma estudante fazendo anotações.' />
@@ -44,6 +48,6 @@ const Banner = () => {
 
         
     )
-}
+};
 
 export default Banner;
