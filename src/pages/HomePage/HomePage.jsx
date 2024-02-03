@@ -1,18 +1,15 @@
-import React from 'react';
-import './Banner.css';
-import Menu from './Menu/menu';
+import React from "react";
+import './HomePage.css';
 
-const Banner = () => {
-
-    return(
+const HomePage = () => {
+    return (
         <div>
-
-            <Menu />
-
-            <header className='containerBanner'>
-                <h2 className='tituloBanner'>Projeto Final - Módulo React <i class="fa-brands fa-react"></i></h2> 
-                <img className='meuBanner' src='/imagens/banner.svg' alt='Imagem centralizada em uma estudante fazendo anotações.' />
-            </header>
+            <nav>
+                <header className='containerBanner'>
+                    <h2 className='tituloBanner'>Projeto Final - Módulo React </h2> 
+                    <img className='meuBanner' src='/imagens/banner.svg' alt='Imagem centralizada em uma estudante fazendo anotações.' />
+                </header>
+            </nav>
 
             <main >
                 <section className='containerMapaPessoal'>
@@ -27,8 +24,8 @@ const Banner = () => {
                         Atualmente tento conciliar os estudos para ingressar na Pós-Graduação, o meu trabalho como pesquisadora e estou descobrindo a programação: um campo novo, que se antes distante, agora faz parte do meu cotidiano, a partir do curso da PretaLab.
                         Estou iniciando no curso de ADS pelo Instituto Federal de Pernambuco. </p>
                     </div>
-                </section>
-                
+                </section> 
+
                 <section className='containerSkills'>
                     <h3 className='tituloSkills'>Skills</h3>
 
@@ -40,14 +37,11 @@ const Banner = () => {
                         <img src='imagens/react.png' className='imgSkill'/>
                     </div>
                 </section>
-                
-                
             </main>
-            
         </div>
-
         
     )
+    
 };
 
-export default Banner;
+export default HomePage;

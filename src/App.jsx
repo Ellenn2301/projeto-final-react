@@ -1,27 +1,26 @@
 import React from "react";
-import Banner from "./componentes/Banner/banner";
+import Menu from "./componentes/Menu/menu";
 import Footer from "./componentes/Footer/footer";
-import { Route, Routes } from "react-router-dom";
-import SobrePage from "./pages/SobrePage";
+import { Routes, Route } from "react-router-dom";
+import HomePage from './pages/HomePage/HomePage';
+
 
 function App() {
 
   return (
+      <div>
+            <Menu />
 
-        <div>
+            <Routes>
+            <Route path="/" element={<HomePage />}/>
+            </Routes>
 
-          <Banner />
-          <Footer />
-          <Routes>
-            <Route path="/sobre" element={<SobrePage />}/>
-          </Routes>
-
+            <Footer />
+            
         </div>
-       
-
+        
   )
   
-
 }
 
-export default App
+export default App;

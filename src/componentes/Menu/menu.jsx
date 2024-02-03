@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Menu = () => {
     return(
         <nav>
-           <ul>
+           <ul className="listaMenu">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
