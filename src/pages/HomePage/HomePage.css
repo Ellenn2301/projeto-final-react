@@ -1,19 +1,20 @@
 .containerBanner{
     max-width: 100%;
-    height: 320px;
+    height: 300px;
     text-align: center;
     background-color: #aaa5ac;
 }
 
 .meuBanner{
-    height: 250px;
-    width: 100%;
+    height: 230px;
+    max-width: 100%;
 }
 
 .tituloBanner{
     color: #4f0496;
     font-size: 35px;
     font-weight: 700;
+    padding: 10px;
 }
  
 .containerMapaPessoal{
@@ -51,6 +52,7 @@
 
 .containerSkills{
     height: 300px;
+    max-width: 100%;
 }
 
 .containerImagensSkills{
