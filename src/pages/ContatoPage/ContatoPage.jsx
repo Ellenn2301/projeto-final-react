@@ -52,48 +52,49 @@ const ContatoPage = () => {
                 </header>
             </div>
 
-            <div className="containerForms">
-                <form onSubmit={handleSubmit} className="formsContato">
+            <section className="formContato">
+                <div className="containerForm">
+                    <form onSubmit={handleSubmit} >
+                        <label>Nome:</label>
+                        <input
+                            type="text"
+                            className="nomeForm"
+                            placeholder="Digite o seu nome"
+                            onChange={handleChangeNome}
+                            value={nome}
+                        />
 
-                    <label>Nome:</label>
-                    <input
-                        type="text"
-                        className="nomeForm"
-                        placeholder="Digite o seu nome"
-                        onChange={handleChangeNome}
-                        value={nome}
-                    />
+                        <label>E-mail:</label>
+                        <input
+                            type="email"
+                            className="emailForm"
+                            placeholder="Digite o seu email"
+                            onChange={handleChangeEmail}
+                            value={email}
+                        />
 
-                    <label>E-mail:</label>
-                    <input
-                        type="email"
-                        className="emailForm"
-                        placeholder="Digite o seu email"
-                        onChange={handleChangeEmail}
-                        value={email}
-                    />
+                        <label>Assunto:</label>
+                        <input
+                            type="text"
+                            className="assuntoForm"
+                            placeholder="Digite o assunto"
+                            onChange={handleChangeAssunto}
+                            value={assunto}
+                        />
 
-                    <label>Assunto:</label>
-                    <input
-                        type="text"
-                        className="assuntoForm"
-                        placeholder="Digite o assunto"
-                        onChange={handleChangeAssunto}
-                        value={assunto}
-                    />
-
-                    <label>Mensagem:</label>
-                    <textarea
-                        type="mensagem"
-                        className="mensagemForm"
-                        placeholder="Digite sua mensagem"
-                        onChange={handleChangeMensagem}
-                        value={mensagem}
-                    />
-                    <br></br>
-                    <button className="buttonForm" type="submit">Enviar</button>
-                </form>
-            </div>
+                        <label>Mensagem:</label>
+                        <textarea
+                            type="mensagem"
+                            className="mensagemForm"
+                            placeholder="Digite sua mensagem"
+                            onChange={handleChangeMensagem}
+                            value={mensagem}
+                        />
+                        <br></br>
+                        <button className="buttonForm" type="submit">Enviar</button>
+                    </form>
+                </div>                
+            </section>
 
         </>
     );

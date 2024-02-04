@@ -22,31 +22,40 @@
     max-width: 100%;
 }
 
-.containerForms{
+.containerForm{
+    height: 500px;
+    width: 40%;
+    background-color: #b482e4;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0000001a;
+}
+
+.formContato{
     height: 600px;
     max-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.formsContato{
+form{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 500px;
-    width: 50%;
-    background-color: #b482e4;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #0000001a;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-input,
-textarea {
-    width: 50%;
+input, textarea {
+    width: 65%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+label{
+    font-size: 20px;
 }
 
 .buttonForm {
@@ -55,7 +64,11 @@ textarea {
     color: #fff;
     padding: 10px 15px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 22px;
+}
+
+.buttonForm:hover{
+    background-color: #4f0496;
 }
