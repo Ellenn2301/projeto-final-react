@@ -1,4 +1,4 @@
-.containerComentarios{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,4 +20,34 @@
 .imagemComentarios{
     height: 250px;
     max-width: 100%;
+}
+
+.containerComentarios{
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.coments{
+    height: 80px;
+    width: 50%;
+}
+
+.buttonComents{
+    height: 40px;
+    width: 20%;
+    background-color: #797679;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.buttonComents:hover{
+    background-color: #4f0496;
 }

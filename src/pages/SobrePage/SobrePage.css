@@ -1,0 +1,17 @@
+.containerImg{
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #aaa5ac;
+}
+
+.tituloSobre{
+    font-size: 30px;
+    color: #4f0496;
+    font-weight: 700;
+}
+.imgDescricao{
+    height: 320px;
+}

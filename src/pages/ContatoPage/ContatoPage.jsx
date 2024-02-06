@@ -34,7 +34,6 @@ const ContatoPage = () => {
             mensagem: mensagem,  
         };
 
-
         setNome('');
         setEmail('');
         setAssunto('');
@@ -55,7 +54,7 @@ const ContatoPage = () => {
             <section className="formContato">
                 <div className="containerForm">
                     <form onSubmit={handleSubmit} >
-                        <label>Nome:</label>
+                        <label>Nome</label>
                         <input
                             type="text"
                             className="nomeForm"
@@ -64,7 +63,7 @@ const ContatoPage = () => {
                             value={nome}
                         />
 
-                        <label>E-mail:</label>
+                        <label>E-mail</label>
                         <input
                             type="email"
                             className="emailForm"
@@ -73,7 +72,7 @@ const ContatoPage = () => {
                             value={email}
                         />
 
-                        <label>Assunto:</label>
+                        <label>Assunto</label>
                         <input
                             type="text"
                             className="assuntoForm"
@@ -82,7 +81,7 @@ const ContatoPage = () => {
                             value={assunto}
                         />
 
-                        <label>Mensagem:</label>
+                        <label>Mensagem</label>
                         <textarea
                             type="mensagem"
                             className="mensagemForm"

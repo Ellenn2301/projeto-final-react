@@ -8,7 +8,7 @@
     height: 320px;
     width: 100%;
     text-align: center;
-    background-color: #aaa5ac;;
+    background-color: #aaa5ac;
 }
 
 .tituloContato{
@@ -48,12 +48,13 @@ form{
 input, textarea {
     width: 65%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #575657;
     border-radius: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
     outline: none;
 }
+
 label{
     font-size: 20px;
 }

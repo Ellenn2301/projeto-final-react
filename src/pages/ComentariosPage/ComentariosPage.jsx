@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import './ComentariosPage.css';
 
 const ComentariosPage = () => {
+
     return (
         <>
-        <div className="containerComentarios ">
+            <div className="container ">
                 <header className="inicioComentarios">
                     <h3 className="tituloComentarios">
                         Deixe um comentário
@@ -13,11 +14,14 @@ const ComentariosPage = () => {
                 </header>
             </div>
 
-            <div>
-                <input 
+            <div className="containerComentarios">
+                <input className="coments"
                 type="text" 
-                placeholder="Digite aqui..."
+                placeholder="Aceitamos sugestões, elogios, críticas construtivas."
                 />
+
+                <button className="buttonComents" type="submit">Enviar</button>
+  
             </div>
                 
         </>
