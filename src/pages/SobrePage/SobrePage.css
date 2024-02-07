@@ -1,5 +1,5 @@
 .containerImg{
-    height: 400px;
+    height: 390px;
     max-width: 100%;
     display: flex;
     align-items: center;
@@ -8,10 +8,74 @@
 }
 
 .tituloSobre{
-    font-size: 30px;
+    font-size: 35px;
     color: #4f0496;
     font-weight: 700;
+    padding: 10px;
 }
+
 .imgDescricao{
     height: 320px;
 }
+
+.containerApresentacao{
+    height: 400px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricaoDescontraida{
+    max-width: 50%;
+    height: 200px;
+    font-size: 22px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.palavrasDescritivas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    max-width: 50%;
+}
+
+.subtitulo{
+    color: #4f0496;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.liInteresses{
+    border: 1px solid #aaa5ac;
+    border-radius: 15px;
+    margin: 3px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.containerPretalab{
+    height: 800px;
+    max-width: 100%;
+    background-color: #ceb6e6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.descricaoCurso{
+    font-size: 22px;
+    margin: 0 30px 10px 30px;
+    text-align: justify;
+}
+
+.imgTecnologias{
+    height: 500px;
+    max-width: 80%;
+}
+
