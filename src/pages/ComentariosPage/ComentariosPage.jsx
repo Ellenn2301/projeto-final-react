@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
-import './ComentariosPage.css';
+import styles from './comentarios.module.css';
 
 const ComentariosPage = () => {
 
@@ -35,30 +35,30 @@ const ComentariosPage = () => {
 
     return (
         <>
-            <div className="container ">
-                <header className="inicioComentarios">
-                    <h3 className="tituloComentarios">
+            <div className={styles.container}>
+                <header className={styles.inicioComentarios}>
+                    <h3 className={styles.tituloComentarios}>
                         Deixe um comentário
                     </h3>
-                    <img className="imagemComentarios" src="/imagens/comentariosImg.svg" alt="Ilustração de uma mulher negra enviando mensagens." />
+                    <img className={styles.imagemComentarios} src="/imagens/comentariosImg.svg" alt="Ilustração de uma mulher negra enviando mensagens." />
                 </header>
             </div>
 
-            <div className="containerComentarios">
-                <input className="coments"
+            <div className={styles.containerComentarios}>
+                <input className={styles.coments}
                 type="text" 
                 placeholder="Aceitamos sugestões, elogios, críticas construtivas."
                 onChange={handleChangeComentarios}
                 value={comentario}
                 />
 
-                <button className="buttonComents" type="submit" onClick={handleSubmit}>Enviar</button>
+                <button className={styles.buttonComents} type="submit" onClick={handleSubmit}>Enviar</button>
             </div>
 
             <ul>
                 {lista.map( (value) => {
                     return(
-                    <li key={value.index} className="listaComentarios">
+                    <li key={value.index} className={styles.listaComentarios}>
                         {value.comentario}
                     </li>)
                      } )}

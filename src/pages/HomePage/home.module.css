@@ -2,7 +2,7 @@
     max-width: 100%;
     height: 300px;
     text-align: center;
-    background-color: #aaa5ac;
+    background-color: var(--secondary-color);
 }
 
 .meuBanner{
@@ -11,7 +11,7 @@
 }
 
 .tituloBanner{
-    color: #4f0496;
+    color: var(--primary-color);
     font-size: 35px;
     font-weight: 700;
     padding: 10px;
@@ -34,12 +34,12 @@
 .descricaoPessoal{
   text-align: center;
   margin: 20px;
-  font-size: 22px;
+  font-size: var(--font-size-medio);
 }
 
 .nomeDescricao{
-    font-size: 50px;
-    color: #4f0496;
+    font-size: 40px;
+    color: var(--primary-color);
     font-weight: 800;
     padding: 20px;
 }
@@ -61,13 +61,15 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .imgSkill{
     height: 120px;
     max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .subtitulo{
-    color: #4f0496;
+    color: var(--primary-color);
     font-size: 35px;
     font-weight: 700;
     text-align: center;
@@ -88,8 +90,8 @@
 }
 
 .redesSociais{
-    color: #565557;
-    font-size: 22px;
+    color: #504e52;
+    font-size: var(--font-size-medio);
     border: 10px;
     margin: 0 0 20px 0;
 }

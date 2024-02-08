@@ -8,11 +8,11 @@
     height: 320px;
     width: 100%;
     text-align: center;
-    background-color: #aaa5ac;;
+    background-color: var(--secondary-color);
 }
 
 .tituloComentarios{
-    color: #4f0496;
+    color: var(--primary-color);
     font-size: 35px;
     padding: 10px;
 }
@@ -37,7 +37,7 @@
 }
 
 .listaComentarios{
-    font-size: 22px;
+    font-size: var(--font-size-medio);
     border: 1px solid #797679;
     border-radius: 10px;
     padding: 5px;
@@ -46,16 +46,16 @@
 .buttonComents{
     height: 40px;
     width: 20%;
-    background-color: #797679;
+    background-color: var(--secondary-color);
     color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: var(--font-size-medio);
     margin-top: 15px;
 }
 
 .buttonComents:hover{
-    background-color: #4f0496;
+    background-color: var(--primary-color);
 }
 

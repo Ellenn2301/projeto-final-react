@@ -8,24 +8,24 @@
     height: 320px;
     width: 100%;
     text-align: center;
-    background-color: #aaa5ac;
+    background-color: var(--secondary-color);
 }
 
 .tituloContato{
-    color: #4f0496;
+    color: var(--primary-color);
     font-size: 35px;
     padding: 10px;
 }
 
 .imagemContato{
-    height: 150px;
+    height: 250px;
     max-width: 100%;
 }
 
 .containerForm{
     height: 500px;
     width: 40%;
-    background-color: #b482e4;
+    background-color: var(--background-section);
     border-radius: 20px;
     box-shadow: 0 0 10px #0000001a;
 }
@@ -50,26 +50,25 @@ input, textarea {
     padding: 10px;
     border: 1px solid #575657;
     border-radius: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
     outline: none;
 }
 
-label{
-    font-size: 20px;
+label{ 
+    font-size: var(--font-size-medio);
 }
 
 .buttonForm {
     width: 40%;
-    background-color: #797679;
+    background-color: var(--secondary-color);
     color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: var(--font-size-medio);
 }
 
 .buttonForm:hover{
-    background-color: #4f0496;
+    background-color: var(--primary-color);
 }

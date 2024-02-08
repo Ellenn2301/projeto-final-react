@@ -1,11 +1,12 @@
 import React from "react";
-import Menu from "./componentes/Menu/menu";
-import Footer from "./componentes/Footer/footer";
+import Menu from "./componentes/Menu";
+import Footer from "./componentes/Footer";
 import { Routes, Route } from "react-router-dom";
 import HomePage from './pages/HomePage/HomePage';
 import SobrePage from './pages/SobrePage/SobrePage';
 import ComentariosPage from './pages/ComentariosPage/ComentariosPage';
 import ContatoPage from './pages/ContatoPage/ContatoPage';
+
 
 
 

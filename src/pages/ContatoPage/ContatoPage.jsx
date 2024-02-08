@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './ContatoPage.css';
+import styles from './contato.module.css';
 
 const ContatoPage = () => {
     const [nome, setNome] = useState('');
@@ -43,22 +43,22 @@ const ContatoPage = () => {
 
     return (
         <>
-            <div className="containerContato ">
-                <header className="inicioContato">
-                    <h3 className="tituloContato">
+            <div className={styles.containerContato}>
+                <header className={styles.inicioContato}>
+                    <h3 className={styles.tituloContato}>
                         Entre em contato
                     </h3>
-                    <img className="imagemContato" src="/imagens/contatoImg.svg" alt="Mapa mundi com pontos de conexão em vários locais." />
+                    <img className={styles.imagemContato} src="/imagens/contatoImg.svg" alt="Mapa mundi com pontos de conexão em vários locais." />
                 </header>
             </div>
 
-            <section className="formContato">
-                 <div className="containerForm">
+            <section className={styles.formContato}>
+                 <div className={styles.containerForm}>
                     <form onSubmit={handleSubmit} >
                         <label>Nome</label>
                         <input
                             type="text"
-                            className="nomeForm"
+                            className={styles.nomeForm}
                             placeholder="Digite o seu nome"
                             onChange={handleChangeNome}
                             value={nome}
@@ -67,7 +67,7 @@ const ContatoPage = () => {
                         <label>E-mail</label>
                         <input
                             type="email"
-                            className="emailForm"
+                            className={styles.emailForm}
                             placeholder="Digite o seu email"
                             onChange={handleChangeEmail}
                             value={email}
@@ -76,7 +76,7 @@ const ContatoPage = () => {
                         <label>Assunto</label>
                         <input
                             type="text"
-                            className="assuntoForm"
+                            className={styles.assuntoForm}
                             placeholder="Digite o assunto"
                             onChange={handleChangeAssunto}
                             value={assunto}
@@ -85,13 +85,13 @@ const ContatoPage = () => {
                         <label>Mensagem</label>
                         <textarea
                             type="mensagem"
-                            className="mensagemForm"
+                            className={styles.mensagemForm}
                             placeholder="Digite sua mensagem"
                             onChange={handleChangeMensagem}
                             value={mensagem}
                         />
                         <br></br>
-                        <button className="buttonForm" type="submit">Enviar</button>
+                        <button className={styles.buttonForm} type="submit">Enviar</button>
                     </form>
                 </div>                 
             </section>
