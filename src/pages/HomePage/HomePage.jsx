@@ -11,8 +11,7 @@ const HomePage = () => {
                 </header>
             </div>
 
-            <div>
-                <section className={styles.containerMapaPessoal}>
+            <section className={styles.containerMapaPessoal}>
                     <div>
                         <img className={styles.mapaEllen} src='/imagens/ellen.png' alt='Ellen Cristina: uma mulher negra, com cabelos castanhos e blusa cor de lilás'/>
                     </div> 
@@ -29,9 +28,9 @@ const HomePage = () => {
                         </p>
                         </article>   
                     </div>
-                </section> 
+            </section> 
 
-                <section className={styles.containerSkills}>
+            <section className={styles.containerSkills}>
                     <h3 className={styles.subtitulo}>Skills</h3>
 
                     <div className={styles.containerImagensSkills}>
@@ -62,8 +61,7 @@ const HomePage = () => {
                         </div>
                         
                     </div>
-                </section>
-            </div>
+            </section>
             
             </>
     )

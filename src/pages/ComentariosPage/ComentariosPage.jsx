@@ -62,7 +62,6 @@ const ComentariosPage = () => {
                         {value.comentario}
                     </li>)
                      } )}
-               
             </ul>
                 
         </>
