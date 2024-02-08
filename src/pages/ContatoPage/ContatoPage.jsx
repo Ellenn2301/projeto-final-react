@@ -13,7 +13,7 @@ const ContatoPage = () => {
     }
 
     function handleChangeEmail(event) {
-        setEmail(event.target.value);
+        setEmail(event.target.value); // o target é o elemento inteiro
     }
 
     function handleChangeAssunto(event) {
@@ -32,6 +32,7 @@ const ContatoPage = () => {
             email: email,
             assunto: assunto,
             mensagem: mensagem,  
+            
         };
 
         setNome('');
@@ -52,7 +53,7 @@ const ContatoPage = () => {
             </div>
 
             <section className="formContato">
-                <div className="containerForm">
+                 <div className="containerForm">
                     <form onSubmit={handleSubmit} >
                         <label>Nome</label>
                         <input
@@ -92,7 +93,7 @@ const ContatoPage = () => {
                         <br></br>
                         <button className="buttonForm" type="submit">Enviar</button>
                     </form>
-                </div>                
+                </div>                 
             </section>
 
         </>

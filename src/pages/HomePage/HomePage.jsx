@@ -32,7 +32,7 @@ const HomePage = () => {
                 </section> 
 
                 <section className='containerSkills'>
-                    <h3 className='tituloSkills'>Skills</h3>
+                    <h3 className='subtitulo'>Skills</h3>
 
                     <div className='containerImagensSkills'>
                         <img src='imagens/github.png' className='imgSkill'/>
@@ -41,8 +41,30 @@ const HomePage = () => {
                         <img src='imagens/javascript.png' className='imgSkill'/>
                         <img src='imagens/react.png' className='imgSkill'/>
                     </div>
+
+                    <div className="containerContato">
+                        <h3 className="subtitulo">Contato</h3>
+
+                        <div className="listaContato">
+                            <ul>
+                                <li>
+                                    <a className="redesSociais" href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a>
+                                </li>
+                                
+                                <li>
+                                    <a className="redesSociais" href="https://github.com/Ellenn2301" target="_blank">GitHub</a>
+                                </li>
+
+                                <li>
+                                    <a className="redesSociais">E-mail: ellenncristina99@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
                 </section>
             </div>
+            
             </>
     )
     

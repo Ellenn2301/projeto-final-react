@@ -33,23 +33,39 @@ const SobrePage = () => {
             </section>
 
             <section className="containerPretalab">
-                <div className="descricaoCurso">
-                    <h3 className="subtitulo">Pretalab</h3>
-                    <p>
-                        Conhecer e fazer parte da Pretalab foi uma experiência única, marcada por inovação e acolhimento. Iniciei por curiosidade e interesse em aperfeiçoar e crescer profissionalmente,
-                        e sem dúvidas foi um grande desafio. Para além dos conhecimentos técnicos adquiridos, aprendi e refleti sobre minha posição em um mercado de trabalho cada vez mais feroz e desigual,
-                        a importância do conhecimento e do papel transformador que a educação é capaz de impulsionar, da negritude que me marca e da sociedade coletiva a qual faço parte.
-                        Com relação aos conteúdos de programação, inicieei como se estivesse em uma aula de falantes fluentes em latim, e conclui feliz da vida, por saber que eu consegui aprender o básico 
-                        da programação em Front-end, e é só o início, codando caminhos possíveis!
-                    </p>
-                </div>
-
                 <div>
-                    <img src="./imagens/tecnologias.png" className="imgTecnologias" alt="4 blocos que apresentam as tecnologias e os seus respectivos conteúdos aprendidos durante o curso."/>
+                    <h3 className="subtitulo">Pretalab</h3>
+                    
+                    <div className="descricaoCurso"> 
+                            <p className="paragrafoDescricao">
+                                Conhecer e fazer parte da Pretalab foi uma experiência única, marcada por inovação e acolhimento. Iniciei por curiosidade e interesse em aperfeiçoar e crescer profissionalmente,
+                                e sem dúvidas foi um grande desafio. Para além dos conhecimentos técnicos adquiridos, aprendi e refleti sobre minha posição em um mercado de trabalho cada vez mais feroz e desigual,
+                                a importância do conhecimento e do papel transformador que a educação é capaz de impulsionar, da negritude que me marca e da sociedade coletiva a qual faço parte.
+                                Com relação aos conteúdos de programação, inicieei como se estivesse em uma aula de falantes fluentes em latim, e conclui feliz da vida, por saber que eu consegui aprender o básico 
+                                da programação em Front-end, e é só o início, codando caminhos possíveis!
+                            </p>
+
+                            <div>
+                                <img src="./imagens/tecnologias.png" className="imgTecnologias" alt="4 blocos que apresentam as tecnologias e os seus respectivos conteúdos aprendidos durante o curso."/>
+                            </div>
+                    </div>
+                </div>               
+            </section>
+
+            <section className="containerProjetos">
+                <div>
+                    <h3 className="subtitulo secaoProjetos">Projetos desenvolvidos</h3>
+
+                    <div className="projetos">
+                        <a href="https://portfolio-ellen-459891.netlify.app/" target="_blank"> <img src="./imagens/portfolio.png" className="projetosImg" /> </a>
+                        <img src="./imagens/site.png" className="projetosImg" />
+                        <img src="./imagens/calculadora.png" className="projetosImg" />
+                    </div>
                 </div>
             </section>
+
         </main>
-        
+    
         </>
     )
 };
